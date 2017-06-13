@@ -1,0 +1,64 @@
+*, *:before, *after {
+  box-sizing: border-box;
+}
+
+.chessboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  border: 1px solid black;
+  width: 50vw;
+  height: 50vw;
+  margin: auto;
+}
+
+.letter-row-top {
+  border-bottom: 1px solid black;
+  height: 5vw;
+  text-align: center;
+
+}
+
+.letter-row-bottom {
+  border-top: 1px solid black;
+  height: 5vw;
+  text-align: center;
+
+}
+
+.white {
+  background-color: white;
+  height: 5vw;
+}
+
+.black {
+  background-color: black;
+  height: 5vw;
+}
+
+.number {
+  height: 5vw;
+}
+
+.letter-row {
+  height: 5vw;
+}
+
+.number-left {
+  height: 5vw;
+  border-right: 1px solid black;
+  text-align: center;
+
+}
+
+.number-right {
+  height: 5vw;
+  border-left: 1px solid black;
+  text-align: center;
+}
+
+.media-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 50vw;
+  margin: auto;
+}
